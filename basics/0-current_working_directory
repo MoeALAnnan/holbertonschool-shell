@@ -1,4 +1,4 @@
 #!/bin/bash
+echo $path , path=’readlink -f “${BASH_SOURCE:-$0}”’  
 
-path=’readlink -f “${BASH_SOURCE:-$0}”’
-echo ‘The absolute path is’ $path
+
