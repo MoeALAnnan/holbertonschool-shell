@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -ls | cut -d "/"  -f last
+find . -type f -empty -ls -A
